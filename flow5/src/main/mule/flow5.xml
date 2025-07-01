@@ -124,6 +124,6 @@ output application/json
         </error-handler>
     </flow>
     <flow name="post:\Item:flow5-config">
-        <logger level="INFO" message="post:\Item:flow5-config" />
+        <logger level="INFO" message="#[payload]" />
     </flow>
 </mule>
